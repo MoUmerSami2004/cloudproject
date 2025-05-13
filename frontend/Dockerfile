@@ -11,10 +11,11 @@ RUN npm install
 # Copy the rest of the application
 COPY . .
 
-# Set environment variables
-ENV NODE_ENV=development
-ENV CHOKIDAR_USEPOLLING=true
-ENV WATCHPACK_POLLING=true
+# Build the application
+RUN npm run build
+
+# Install serve to run the production build
+RUN npm install -g serve
 
 # Expose the port the app runs on
 EXPOSE 3000
@@ -23,5 +24,5 @@ EXPOSE 3000
 HEALTHCHECK --interval=30s --timeout=30s --start-period=5s --retries=3 \
   CMD wget --no-verbose --tries=1 --spider http://localhost:3000 || exit 1
 
-# Start the application in development mode with host set to 0.0.0.0
-CMD ["npm", "start", "--", "--host", "0.0.0.0"] 
+# Start the application in production mode
+CMD ["serve", "-s", "build", "-l", "3000"] 
