@@ -1,0 +1,112 @@
+{
+    "bakerloo": {
+        "line_id": "bakerloo",
+        "line_name": "Bakerloo",
+        "status": "Good Service",
+        "delay_minutes": 2,
+        "reliability_percentage": 98.5,
+        "disruptions": 1,
+        "congestion_level": 25.0,
+        "timestamp": "2024-03-10T10:00:00"
+    },
+    "central": {
+        "line_id": "central",
+        "line_name": "Central",
+        "status": "Minor Delays",
+        "delay_minutes": 5,
+        "reliability_percentage": 85.0,
+        "disruptions": 2,
+        "congestion_level": 45.0,
+        "timestamp": "2024-03-10T10:00:00"
+    },
+    "circle": {
+        "line_id": "circle",
+        "line_name": "Circle",
+        "status": "Good Service",
+        "delay_minutes": 1,
+        "reliability_percentage": 97.0,
+        "disruptions": 0,
+        "congestion_level": 20.0,
+        "timestamp": "2024-03-10T10:00:00"
+    },
+    "district": {
+        "line_id": "district",
+        "line_name": "District",
+        "status": "Severe Delays",
+        "delay_minutes": 15,
+        "reliability_percentage": 70.0,
+        "disruptions": 3,
+        "congestion_level": 75.0,
+        "timestamp": "2024-03-10T10:00:00"
+    },
+    "hammersmith-city": {
+        "line_id": "hammersmith-city",
+        "line_name": "Hammersmith & City",
+        "status": "Good Service",
+        "delay_minutes": 0,
+        "reliability_percentage": 99.0,
+        "disruptions": 0,
+        "congestion_level": 15.0,
+        "timestamp": "2024-03-10T10:00:00"
+    },
+    "jubilee": {
+        "line_id": "jubilee",
+        "line_name": "Jubilee",
+        "status": "Minor Delays",
+        "delay_minutes": 4,
+        "reliability_percentage": 88.0,
+        "disruptions": 1,
+        "congestion_level": 50.0,
+        "timestamp": "2024-03-10T10:00:00"
+    },
+    "metropolitan": {
+        "line_id": "metropolitan",
+        "line_name": "Metropolitan",
+        "status": "Good Service",
+        "delay_minutes": 1,
+        "reliability_percentage": 96.0,
+        "disruptions": 0,
+        "congestion_level": 30.0,
+        "timestamp": "2024-03-10T10:00:00"
+    },
+    "northern": {
+        "line_id": "northern",
+        "line_name": "Northern",
+        "status": "Part Suspended",
+        "delay_minutes": 25,
+        "reliability_percentage": 55.0,
+        "disruptions": 4,
+        "congestion_level": 85.0,
+        "timestamp": "2024-03-10T10:00:00"
+    },
+    "piccadilly": {
+        "line_id": "piccadilly",
+        "line_name": "Piccadilly",
+        "status": "Severe Delays",
+        "delay_minutes": 12,
+        "reliability_percentage": 65.0,
+        "disruptions": 3,
+        "congestion_level": 70.0,
+        "timestamp": "2024-03-10T10:00:00"
+    },
+    "victoria": {
+        "line_id": "victoria",
+        "line_name": "Victoria",
+        "status": "Good Service",
+        "delay_minutes": 2,
+        "reliability_percentage": 95.0,
+        "disruptions": 1,
+        "congestion_level": 35.0,
+        "timestamp": "2024-03-10T10:00:00"
+    },
+    "waterloo-city": {
+        "line_id": "waterloo-city",
+        "line_name": "Waterloo & City",
+        "status": "Good Service",
+        "delay_minutes": 0,
+        "reliability_percentage": 99.5,
+        "disruptions": 0,
+        "congestion_level": 10.0,
+        "timestamp": "2024-03-10T10:00:00"
+    }
+} 
